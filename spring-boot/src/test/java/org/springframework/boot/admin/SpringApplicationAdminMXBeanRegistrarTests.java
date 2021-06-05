@@ -178,6 +178,7 @@ class SpringApplicationAdminMXBeanRegistrarTests {
 		@Bean
 		SpringApplicationAdminMXBeanRegistrar springApplicationAdminRegistrar() throws MalformedObjectNameException {
 			return new SpringApplicationAdminMXBeanRegistrar(OBJECT_NAME);
+			systemout("Testing merge");
 		}
 
 	}
